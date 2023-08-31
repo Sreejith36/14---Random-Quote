@@ -1,0 +1,115 @@
+:root {
+    --color1: #ff0080;
+    --color2: #3333cc;
+    --textcolor1: white;
+}
+
+h1 {
+    text-align: center;
+    color: var(--color2);
+}
+
+#quote-box{
+    width: 50%;
+    height: 400px;
+    background-color: var(--color2);
+    margin: 5px auto;
+    border-radius: 10px;
+}
+
+.qtnm-box {
+    height: 300px;
+    padding-top: 15px;
+    color: var(--textcolor1);
+}
+
+.txtbox{
+    width: 90%;
+    height: auto;
+    margin: 5px auto;
+}
+
+.name {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#text {
+    font-size: 1.8em;
+}
+
+#author {
+    text-align: end;
+    font-size: 1.2em;
+    color: yellow;
+}
+
+#new-quote {
+    padding: 5px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--color1);
+    color: antiquewhite;
+}
+
+.next {
+    width: 90%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+ i {
+    color: var(--color1);
+    font-size: 2em;
+    margin-right: 20px;
+    background-color: whitesmoke;
+    border-color: blue;
+}
+
+.fade-in-text {
+    font-family: Arial;
+    animation: fadeIn 2s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .footnote{
+    text-align: center;
+    font-size: 0.8em;
+    color: gray;
+  }
+
+ 
+
+  @media only screen and (max-width: 800px) {
+    body {
+      background-color: lightblue;
+    }
+
+    #quote-box{
+        width: 95%;
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .qtnm-box {
+        height: 400px;
+        padding-top: 15px;
+        color: var(--textcolor1);
+    }
+
+    #new-quote {
+        width: 90%;
+        height: 50px;
+        margin: 1px auto;
+    }
+  }
+  
+    
